@@ -1,0 +1,236 @@
+* {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+        body{
+            min-height: 100vh;
+            background-image: linear-gradient(#FFFFFF, #EBDCFF);
+    }
+
+    img {
+        width: 100%;
+    }
+    #banner {
+        /* margin-top: 100px;
+        margin-bottom: 120px;
+        margin-left: auto;
+        margin-right: auto; */
+                /* TB    LR */
+        /* margin: 100px 50px; */
+                 /* T    R    B    L  */
+        /* margin: 100px 10px 25px 50px; */
+        margin: 100px auto 120px auto;
+        width: 87.5%;
+        border-radius: 40px;
+        border: 2px solid #872bff10;
+        padding: 20px 30px;
+        background-image: url("../images/hero-bg.png");
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banner-content {
+        width: 60%;
+    }
+
+    .banner-content * {
+        margin-bottom: 20px;
+    }
+
+    .banner-content h1 {
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .banner-content h1 span {
+        color: #f411cf;
+    }
+
+    .banner-image {
+        width: 50%;
+    }
+
+.banner-content p {
+    font-weight: medium;
+    font-size: 18px;
+    color: #a8a8a8;
+}
+
+button {
+    background-color: #872bff;
+    border-radius: 10px;
+    padding: 16px 32px;
+    border-width: thin;
+    border-color: beige;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-color: #872bff;
+}
+
+#service , #story , #country {
+    width: 87.5%;
+    margin: 0px auto 120px auto;
+}
+
+.heading-content {
+    text-align: center;
+}
+
+.heading-content h4 {
+    color: #f411cf;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.heading-content h2 {
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.service-card {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 25px;
+    max-width: 350px;
+}
+
+.service-card img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.service-card h2 {
+    margin-top: 20px;
+    font-weight: 10px;
+    font-size: 28px;
+}
+.service-card p {
+    margin-top: 20px; 
+    color: #a8a8a8;
+}
+
+.story-card {
+    display: flex;
+}
+
+/* .story-card-content h2 , .story-card-content p , .story-card-content img , .story-card-content button {
+   margin-bottom: 20px;
+   margin-left: 20px; */
+
+.story-image-section {
+    width: 40%;
+}
+
+.story-card-content {
+    text-align: left;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.story-card-content-image {
+    width: 100px;
+    margin-top: 40px;
+}
+
+.story-card-content-p {
+    margin-top: 40px;
+}
+
+.story-card-content-button {
+    margin-top: 40px;
+}
+.story-content {
+    background-color: white;
+    padding: 40px;
+    border-radius: 24px;
+}
+
+#country-card-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#country-card-container h2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 40px;    
+}
+
+.reviews-sction {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.reviews-sction-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.review {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.clareview-heading-section , .clareview-heading-section-post{
+    text-align: center;
+}
+.review-bottom-section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-left: 40%;
+}
+.footer-content {
+    background-color:#FFFFFF;
+    display: flex;
+    padding: 10px;
+    gap: 65%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.footer-heading {
+    margin-top: 10px;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.footer-image {
+    gap: 50px;
+    display: flex;
+}

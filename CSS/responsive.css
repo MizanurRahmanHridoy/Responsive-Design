@@ -1,0 +1,97 @@
+/* Laptop Device */
+
+@media screen and (max-width:1200px) {
+.banner-content h1 {
+        font-size: 48px;
+    }
+    .service-card {
+    padding: 80px 20px ;
+   
+}
+.story-image-section img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.footer-content {
+    gap: 60%;
+}
+
+.footer-heading {
+    margin-left: 1%;
+}
+}
+
+/* Tablet device */
+
+@media screen and (max-width:1024px) {
+    #banner {
+        flex-direction: column-reverse;
+    }
+    .banner-content {
+        width: 100%;
+}
+.banner-image {
+        width: 100%;
+    }
+    .service-content {
+    flex-direction: column;
+}
+.service-card {
+    max-width: 100%;
+}
+.story-card {
+    flex-direction: column;
+}
+.story-image-section {
+    width: 100%;
+}
+
+.story-card-content {
+    margin-top: 20px;
+    width: 100%;
+}
+.review-bottom-section {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.review-logo {
+    width: 20%;
+    margin-left: 40%;
+}
+
+.footer-content {
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.footer-heading {
+    margin-bottom: 2%;
+}
+
+  }
+/* Mobile Device up to 425px */
+
+@media screen and (max-width:640px) {
+ .banner-content h1 {
+        font-size: 36px; 
+    }
+    .heading-content h2 {
+        font-size: 32px;
+    }
+    .banner-content {
+        text-align:center;
+    }
+    button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    }
+
+.footer-heading {
+    margin-bottom: 3%;
+}
+}
